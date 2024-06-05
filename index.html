@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Panarra</title>
+	<style type="text/css">
+		#izquierda {background-color: #000; width: 50%; height: 400px; float: left;}
+		#derecha {background-color: #000; width: 50%; height: 400px; float: left; text-align: center}
+		.portada {width: 75%; height: 400px}
+		#logo {width: 150px; }
+		.mensaje_01 {color: #FFF; font-size: 3.5em;}
+		.mensaje_02 {color: #FFF; font-size: 1.8em;}
+		.boton {color: #FFF; font-size: 1.8em; background-color: #2874A6; width: 150px; margin: 15px auto; border-radius: 50px;}
+		#elem_menu {width: 5.3%; float: left; background-color: grey; color: #FFF; margin-left: 1px; text-align: center;}
+		#relleno_menu {width: 78%; float: left; background-color: grey; color: #FFF;}
+		.galleta {width: 20%; background-color: #AED6F1; text-align: center; float: left; margin-top: 40px; margin-left: 4%; margin-bottom: 40px}
+		#foto_pan {width: 100%; border-radius: 100%; height: 250px }
+		#nombre_pan {background-color: #3498DB; color: #FFF; font-size: 1.5em; height: 30px;}
+		#precio_pan {font-size: 1.5em}
+
+	</style>
+</head>
+<body>
+ <header>
+ 	<div id="izquierda">
+ 		<img class="foto de portada" src="images/Foto_de_portada.png" alt="Foto de pan gordo">
+ 	</div>
+ 	<div id="derecha">
+ 		<div>
+ 		<img id="logo" src="./images/Logo_panarra.png" alt="Logo de panadería">
+ 	    </div>
+ 	    <div class="mensaje_01">
+ 	    	Panarras del Mundo
+ 	    </div>
+ 	    <div class="mensaje_02">
+ 	    	Recetas y curiosidades relacionadas con los panes
+ 	    </div>
+ 	    <div class="boton">
+ 	    	Suscribirse
+ 	    </div>
+
+ 	</div>
+ </header>
+ <nav>
+ 	<div id="relleno_menu">&nbsp;</div>
+ 	<a href="#"> <div id="elem_menu">INICIO</div></a>
+ 	<a href="#"> <div id="elem_menu">RECETAS</div></a>
+ 	<a href="#"> <div id="elem_menu">TIENDA</div></a>
+ 	<a href="#"> <div id="elem_menu">TRUCOS</div></a>
+ </nav>
+ <main>
+ 	<article>
+ 		<section class="galleta">
+ 			<div id="foto_pan">
+ 				<img id="foto_pan" src="./images/barra_de_pan.webp" alt="foto de barras de pan">
+ 			</div>
+ 			<div id="nombre_pan">
+ 				Barra de pan
+ 			</div>
+ 			<div id="precio_pan">
+ 				1.20€
+ 			</div>
+ 		</section>
+
+ 		<section class="galleta">
+ 			<div id="foto_pan">
+ 				<img id="foto_pan" src="./images/pan_blanco.png" alt="foto de barras de pan">
+ 			</div>
+ 			<div id="nombre_pan">
+ 				Panecillos
+ 			</div>
+ 			<div id="precio_pan">
+ 				0.40€
+ 			</div>
+ 		</section>
+
+ 		<section class="galleta">
+ 			<div id="foto_pan">
+ 				<img id="foto_pan" src="./images/pan_trigo_sarraceno.png" alt="foto de barras de pan">
+ 			</div>
+ 			<div id="nombre_pan">
+ 				Pan de Trigo
+ 			</div>
+ 			<div id="precio_pan">
+ 				2.10€
+ 			</div>
+ 		</section>
+
+ 		<section class="galleta">
+ 			<div id="foto_pan">
+ 				<img id="foto_pan" src="./images/pan_candela.jpg" alt="foto de barras de pan">
+ 			</div>
+ 			<div id="nombre_pan">
+ 				Pan Candela
+ 			</div>
+ 			<div id="precio_pan">
+ 				2.30€
+ 			</div>
+ 		</section>
+ 	</article>
+ 	<footer></footer>
+ </main>
+</body>
+</html>
